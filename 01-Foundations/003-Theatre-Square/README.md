@@ -8,7 +8,7 @@
 
 Note that the cover is in the shape of a square:
 
-1. For the two sides, I use ceiling division, because the square tile either exactly covers or slightly overcovers (e.g., 4 covered by 3 can be done by three 3s).
+1. For the two sides, I use ceiling division, because the square tile either exactly covers or slightly overcovers the axis (e.g., a length of 4 can be covered by two 3s).
 2. Once the results are found, multiply them to get the total number of tiles along both axes.
 
 ## Complexity
